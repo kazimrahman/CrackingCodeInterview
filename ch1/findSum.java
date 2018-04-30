@@ -21,6 +21,7 @@ class findSum{
 		return false;
 	}
 	
+	//uses hashmap, theoretically faster
 	static boolean find(int[] a, int sum, boolean v){
 		List list = new ArrayList<Integer>();
 		Map map = new HashMap<Integer, Integer>();

@@ -3,13 +3,19 @@ import java.util.*;
 class stringComp{
 	public static void main(String[] args){
 	
-		Scanner in = new Scanner(System.in);
+		//Scanner in = new Scanner(System.in);
 		
 		System.out.println("Enter string to compress");
-		String b = in.nextLine();
+		//String b = in.nextLine();
 		
-		System.out.println(compress(b));
-		System.out.println(concat(b));
+		char c = 'c' + 3;
+		
+		int b = 99;
+		System.out.println(c);
+		
+		
+		//System.out.println(compress(b));
+		//System.out.println(concat(b));
 		
 	}
 	
@@ -27,7 +33,7 @@ class stringComp{
 			}
 		}
 		
-		return (a.length() >s.length()) ? (s.toString()) : (a);
+		return (a.length() > s.length()) ? (s.toString()) : (a);
 		
 		//return a;
 	}
